@@ -16,7 +16,7 @@ export const renderStatusCell = (item: any, col: any) => {
     case 'failed':
       return (
         <>
-          <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white">
+          <span className="flex items-center text-sm font-medium text-white-900">
             <span
               className={classNames(`flex w-3 h-3 py-1 px-1  opacity-80 rounded-full mr-1.5 flex-shrink-0`, statusColorClass)}
             ></span>
@@ -27,7 +27,7 @@ export const renderStatusCell = (item: any, col: any) => {
     case 'running':
       return (
         <>
-          <span className="flex items-center text-sm font-medium text-gray-900 dark:text-white">
+          <span className="flex items-center text-sm font-medium text-white-900">
             <svg
               aria-hidden="true"
               className="w-4 h-4 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-300"
