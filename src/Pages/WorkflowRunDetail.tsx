@@ -116,7 +116,7 @@ export default function WorkflowRunDetail(props: any) {
               </div>
             </header>
             {/* Workflow Steps visualization*/}
-            <h2 className="flex gap-x-3 text-base leading-7 my-3 ml-8">
+            <h2 className="bg-gray-800 flex gap-x-3 text-base leading-7 my-3 ml-8">
               <span className="font-semibold text-white">Workflow Steps</span>
             </h2>
             <div className="bg-gray-800 px-4 py-4 sm:px-6 lg:px-8">
