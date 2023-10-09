@@ -1,11 +1,17 @@
 ## About
 
-Coupang Platform Workflows is a sample project showing how to approach building easy to maintain portal applications with appropriate abstractions
+Platform Workflows is a sample project very similar to any CI/CD pipeline tool, showing how to approach building easy to maintain portal applications with appropriate abstractions
 
 The project shows the following use-cases:
 - Listing of workflows
 - Listing of workflow run
 - Viewing of workflow run details, with sample step details
+
+## Demo
+https://main--sage-pastelito-410f61.netlify.app/
+
+## Overview Video
+https://www.loom.com/share/bf1bd93638384514aab357aab8ae02be?sid=36b49101-6134-4e21-b411-ea50074bcd58
 
 ## Usage
 
@@ -61,4 +67,5 @@ yarn serve
   - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code. It is highly configurable and can be used to enforce coding styles and best practices.
 - [Prettier 2](https://prettier.io/)
   - Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
 
