@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const renderIDLinkCell = (row: any, col: any) => {
     return (
-        <Link className="font-bold text-blue-600" to={`/workflow-run-details/${row[col.key]}`}>{row[col.key]}</Link>
+        <Link className="font-bold text-indigo-400" to={`/workflow-run-details/${row[col.key]}`}>{row[col.key]}</Link>
     )
 }
 

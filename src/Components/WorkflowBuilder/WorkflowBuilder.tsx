@@ -109,6 +109,8 @@ function ReactFlowPro(props: any) {
           nodesDraggable={false}
           nodesConnectable={false}
           zoomOnDoubleClick={false}
+          panOnDrag={false}
+          panOnScroll={false}
           // we are setting deleteKeyCode to null to prevent the deletion of nodes in order to keep the implementation simple.
           // If you want to enable deletion of nodes, you need to make sure that you only have one root node in your graph.
           deleteKeyCode={null}
