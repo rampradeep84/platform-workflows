@@ -4,7 +4,7 @@ Platform Workflows is a sample project very similar to any CI/CD pipeline tool, 
 
 The project shows the following use-cases:
 - Listing of workflows
-- Listing of workflow run
+- Listing of workflow runs
 - Viewing of workflow run details, with sample step details
 
 ## Demo
