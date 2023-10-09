@@ -57,7 +57,7 @@ export default function WorkflowRunDetail(props: any) {
     )
   }
    return !loading && workflowRun ? (
-      <div>
+      <div className="bg-gray-800">
         <div className="xl:pl-0">
           <main>
             <header>
